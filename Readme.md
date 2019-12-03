@@ -1,5 +1,5 @@
 # Curso de Git e GitHub - Udemy
 
-![imagem.jpg](Curso)
+![Imagem_Curso.jpg](Curso)
 
 Repositório do curso Git e GitHub
