@@ -1,0 +1,297 @@
+history
+
+    1  mkdir /tmp
+    2  mountall
+    3  mount
+    4  cd /cygdrive/g
+    5  export PS1=[$(hostname -s):${ID}:'$PWD':]" "
+    6  hostname
+    7  export PS1=[$(hostname):${ID}:'$PWD':]" "
+    8  cd G:\DVD\-- DVD\000 - Objetivos\2018\Enviar-Grupo-Adeo
+    9  cd DVD/-- DVD/000 - Objetivos/2018/Enviar-Grupo-Adeo
+   10  cd "DVD/-- DVD/000 - Objetivos/2018/Enviar-Grupo-Adeo"
+   11  dir
+   12  ls -ltr
+   13  find .
+   14  exit
+   15  help
+   16  exit
+   17  help
+   18  vim Readme.md
+   19  vim Readme.md
+   20   ls
+   21  git status
+   22
+   23  git add Readme.me
+   24  dir
+   25  git add Readme.md Readme.md
+   26  git add Readme.md Readme.md
+   27  git status
+   28  vim Readme.md
+   29  git status
+   30  git add Readme.md
+   31  git status
+   32  commit
+   33  git status
+   34  git commit
+   35  git commit -m "Add Readme.md"
+   36  git config --global user.name "David de Campos"
+   37  git config --global user.mail "david.de.campos@gmail.com"
+   38  git commit -m "Add Readme.md"
+   39  git commit -m "Add Readme.md"
+   40  git config --list
+   41  exit
+   42  git status
+   43  dir
+   44  g:
+   45  mount
+   46  G:
+   47  cd G:
+   48  dir
+   49  cd DVD/
+   50  dir
+   51  cd Desenvolvimento/
+   52  dir
+   53  ls -l
+   54  cd GIT-Repositorio/
+   55  dir
+   56  git status
+   57  git commit -m "add Readme.md"
+   58  git config --global user.name "David de Campos"
+   59  git config --global user.mail "david.de.campos@gmail.com"
+   60  git commit -m "add Readme.md"
+   61  git config --global user.name "David@Note-DELL-David"
+   62  git commit -m "add Readme.md"
+   63  git config --global user.name "David de Campos"
+   64  git commit -m "add Readme.md"
+   65  Omit --global
+   66  commit --global
+   67  git commit --global
+   68  git commit --global
+   69  git status
+   70  git add Readme.md
+   71  git commit -m "Add Readme.md"
+   72  cd
+   73  cd
+   74  dir
+   75  ls -la
+   76  ls -la .git
+   77  pwd
+   78  rm -fr .git
+   79  G:
+   80  mount
+   81  /g
+   82  cd /g
+   83  cd DVD/Desenvolvimento/GIT-Repositorio/
+   84  dir
+   85  git commit -m "Add Readme.md"
+   86  git
+   87  git --global
+   88  git /?
+   89  git --help
+   90  git help --global
+   91  git config -list
+   92  git config --list
+   93  git status
+   94  vim Readme.md
+   95  git status
+   96  git add Readme.md
+   97  git status
+   98  git commit -m "Add Reade.md"
+   99  git status
+  100  history
+  101  vim teste.dvd
+  102  git status
+  103  git add teste.dvd
+  104  git status
+  105  git commit -m "teste.dvd primeira linha"
+  106  git log
+  107  vim teste.dvd
+  108  git add teste.dvd
+  109  git commit -m "teste.dvd segunda linha"
+  110  git log
+  111  git log --decorate
+  112  git log --author "David"
+  113  git shortlog
+  114  git shortlog -sn
+  115  git log --graph
+  116  git show 7480b3596c3b75b10cddd5bdf76e47fc959bc082
+  117  git show 2c0c75c41e9945c4f83590c92132b34758ca26d5
+  118  vim teste.dvd
+  119  git diff
+  120  git diff --name-only
+  121  git diff --name
+  122  git status
+  123  git commit -am "Edit teste.dvd terceira linha"
+  124  git log
+  125  clear
+  126  git log
+  127  git show 1fcd2ac023854ea4c0c0ffd1ec37287830eba6f5
+  128  history
+  129  git status
+  130  git add Comandos_GIT.txt
+  131  git commit -am "criação do arquivo"
+  132  git status
+  133  git show
+  134  git diff
+  135  exit
+  136  exit
+  137  exit
+  138  exit
+  139  git
+  140  git config
+  141  git config -l
+  142  pwd
+  143  cd /g
+  144  cd DVD/Desenvolvimento/GIT-Repositorio/
+  145  dir
+  146  PS1=david
+  147  export PS1=[$(hostname -s):${ID}:'$PWD':]" "
+  148  host
+  149  uname
+  150  hostname
+  151  export PS1=[$(hostname):${ID}:'$PWD':]" "
+  152  export PS1=[$(hostname):'$PWD':]" "
+  153  git --global
+  154  git /?
+  155  git --help
+  156  ssh-keygen -t rsa -b 4096 -C "david.de.campos@gmail.com"
+  157  cls
+  158  clear
+  159  history 1
+  160  history
+  161  cd ~./ssh
+  162  cd ~/ssh
+  163  dir
+  164  ls -lta
+  165  cd
+  166  ls -la
+  167  set
+  168  mount
+  169  cd
+  170  C:/Program Files/Git
+  171  cd C:/Program Files/Git
+  172  cd "C:/Program Files/Git"
+  173  ls -l
+  174  ls -la
+  175  ls -latr
+  176  exit
+  177  pwd
+  178  ls -la
+  179  ls -l ssh
+  180  ls -l /c/Users/David/.ssh
+  181  export PS1=[$(hostname):'$PWD':]" "
+  182  hostname /?
+  183  hostname /help
+  184  hostname
+  185  man hostname
+  186  cd /g
+  187  cd DVD/Desenvolvimento/GIT-Repositorio/
+  188  dir
+  189  ls -ltr
+  190  ls -ltr
+  191  git status
+  192  git status
+  193  ls -la
+  194  ls -l .git
+  195  cat config
+  196  ls -ltr
+  197  ls -ltra
+  198  ls -ltra .git
+  199  cat .git/index
+  200  ls -l
+  201  ls -la
+  202  find .git
+  203  find . -exec grep "background_color" {} \;
+  204  find . -type f -exec grep "background_color" {} \;
+  205  df
+  206  df -i
+  207  df -g
+  208  df -h
+  209  df /?
+  210  df --help
+  211  df -H
+  212  awk
+  213  cd
+  214  ls -la
+  215  cd .ssh
+  216  ls -l
+  217  cat id_rsa.pub
+  218  cd "G:\DVD\-- DVD\000 - Planilha - Cadastro\CORREÇÕES"
+  219  git remote add origin https://github.com/dvdcmps/Portal-Fornecedor.git
+  220  ls -l
+  221  echo "# Portal-Fornecedor" >> README.md
+  222  git init
+  223  ls -l
+  224  git status
+  225  for var in `ls`; do git add $var; done
+  226  git status
+  227  git commit -m "carga inicial"
+  228  git status
+  229  git remote add origin https://github.com/dvdcmps/Portal-Fornecedor.git
+  230  git push -u origin master
+  231  git status
+  232  cd ..
+  233  ls -l
+  234  cd Fontes
+  235  ls -la
+  236  for var in `ls`; do git add $var; done
+  237  ls -l
+  238  history
+  239  echo "# Portal-Fornecedor-Fontes"  >> README.md
+  240  git remote add origin https://github.com/dvdcmps/Portal-Fornecedor.git
+  241  git status
+  242  git init
+  243  for var in `ls`; do git add $var; done
+  244  for var in `ls`; do git add "$var"; done
+  245  for var in `ls`; do echo "$var"; done
+  246  IFS="
+  247  "
+  248  for var in `ls`; do echo "$var"; done
+  249  for var in `ls`; do git add "$var"; done
+  250  git push -u origin master
+  251  history
+  252  hist
+  253  history
+  254  git status
+  255  git commit -m "carga inicial"
+  256  history
+  257  git remote add origin https://github.com/dvdcmps/Portal-Fornecedor.git
+  258   git push -u origin master
+  259  git status
+  260  git commit
+  261  history
+  262  git push -u origin master
+  263  git remote add origin_fonte https://github.com/dvdcmps/Portal-Fornecedor.git
+  264  git push -u origin_fonte master
+  265  git pull -u origin_fonte master
+  266  git push -u origin master
+  267  git pull origin_fonte master
+  268  git remote add origin_fonte https://github.com/dvdcmps/Portal-Fornecedor.git
+  269  for var in `ls`; do git add "$var"; done
+  270  git pull origin_fonte master
+  271  git log
+  272  git log
+  273  cd DVD/Desenvolvimento/GIT-Repositorio/
+  274  cd "g/DVD/Desenvolvimento/GIT-Repositorio/"
+  275  cd g/
+  276  cd "/DVD/Desenvolvimento/GIT-Repositorio/"
+  277  cd "/--DVD/Desenvolvimento/GIT-Repositorio/"
+  278  dir
+  279  cd ../../..
+  280  dir4
+  281  dir
+  282  ls -l
+  283  cd "-- DVD"
+  284  cd "-- DVD/"
+  285  cd "-- DVD"/
+  286  cd '-- DVD'/
+  287  cd '-- DVD'/
+  288  ls -l
+  289  cd *DVD*
+  290  cd '-- DVD'
+  291  cd -L '-- DVD'
+  292  exit
+  293  help
+  294  exit
+  295  history

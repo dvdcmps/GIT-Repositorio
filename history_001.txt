@@ -1,0 +1,87 @@
+/g
+awk
+C:/Program Files/Git
+cat .git/index
+cat config
+cat id_rsa.pub
+cd "/DVD/Desenvolvimento/GIT-Repositorio/"
+cd "C:/Program Files/Git"
+cd "DVD/-- DVD/000 - Objetivos/2018/Enviar-Grupo-Adeo"
+cd "g/DVD/Desenvolvimento/GIT-Repositorio/"
+cd "G:\DVD\-- DVD\000 - Planilha - Cadastro\CORREÇÕES"
+cd /cygdrive/g
+cd /g
+cd C:/Program Files/Git
+cd Desenvolvimento/
+cd DVD/
+cd DVD/-- DVD/000 - Objetivos/2018/Enviar-Grupo-Adeo
+cd DVD/Desenvolvimento/GIT-Repositorio/
+cd Fontes
+cd g/
+cd G:
+cd G:\DVD\-- DVD\000 - Objetivos\2018\Enviar-Grupo-Adeo
+cd GIT-Repositorio/
+cd ~./ssh
+cd ~/ssh
+commit
+commit --global
+echo "# Portal-Fornecedor" >> README.md
+echo "# Portal-Fornecedor-Fontes"  >> README.md
+exit
+export PS1=[$(hostname -s):${ID}:'$PWD':]" "
+export PS1=[$(hostname):${ID}:'$PWD':]" "
+export PS1=[$(hostname):'$PWD':]" "
+find . -exec grep "background_color" {} \;
+find . -type f -exec grep "background_color" {} \;
+for var in `ls`; do git add "$var"; done
+git --global
+git --help
+git /?
+git add Comandos_GIT.txt
+git add Readme.md
+git add Readme.md Readme.md
+git add Readme.me
+git add teste.dvd
+git commit
+git commit --global
+git commit -am "criação do arquivo"
+git commit -am "Edit teste.dvd terceira linha"
+git commit -m "Add Reade.md"
+git commit -m "Add Readme.md"
+git commit -m "carga inicial"
+git commit -m "teste.dvd primeira linha"
+git commit -m "teste.dvd segunda linha"
+git config
+git config --global user.mail "david.de.campos@gmail.com"
+git config --global user.name "David de Campos"
+git config --global user.name "David@Note-DELL-David"
+git config --list
+git config -l
+git config -list
+git diff
+git diff --name
+git diff --name-only
+git help --global
+git init
+git log
+git log --author "David"
+git log --decorate
+git log --graph
+git pull -u origin_fonte master
+git pull origin_fonte master
+git push -u origin master
+git push -u origin_fonte master
+git remote add origin https://github.com/dvdcmps/Portal-Fornecedor.git
+git remote add origin_fonte https://github.com/dvdcmps/Portal-Fornecedor.git
+git shortlog
+git shortlog -sn
+git show
+git show 1fcd2ac023854ea4c0c0ffd1ec37287830eba6f5
+git show 2c0c75c41e9945c4f83590c92132b34758ca26d5
+git show 7480b3596c3b75b10cddd5bdf76e47fc959bc082
+git status
+mount
+mountall
+ssh-keygen -t rsa -b 4096 -C "david.de.campos@gmail.com"
+vim Readme.md
+vim teste.dvd

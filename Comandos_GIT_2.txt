@@ -1,0 +1,46 @@
+GIT e GITHUB
+
+
+
+
+
+
+Aula 13 - Criando um repositório no GITHUB
+
+acessar o github - user: dvdcmps passwd: 7David02
+criar um repositório
+
+Aula 14 - Criando e Adicionando uma chave SSH
+
+existem 2 tipos de chaves:
+publica e privada
+publica: fica no GITHUB
+provada: fina na máquina e com ela podemos acessar a chave publica, no servidor GITHUB
+
+
+ssh-keygen -t rsa -b 4096 -C "david.de.campos@gmail.com"
+Generating public/private rsa key pair.
+
+Enter file in which to save the key (/c/Users/David/.ssh/id_rsa):
+Created directory '/c/Users/David/.ssh'.
+
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+
+Your identification has been saved in /c/Users/David/.ssh/id_rsa.
+Your public key has been saved in /c/Users/David/.ssh/id_rsa.pub.
+
+The key fingerprint is:
+SHA256:18NwC+11S4mlgovKQ8foQpnw+7arLGVzkycDl2N4Iis david.de.campos@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|               . |
+|          ..  + .|
+| .  . .  .o.oo.o.|
+| .o+o*o . .B.o...|
+|  o=*oo+S.. *  . |
+|E..+=*o. .   .   |
+|. ooo==          |
+| .. o..          |
+|  .oo+o          |
++----[SHA256]-----+
