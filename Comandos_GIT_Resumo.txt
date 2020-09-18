@@ -46,11 +46,14 @@ Any commits you make will be made on the branch you´re currently "checked out" t
 $ git branch [branch-name]
   Creates a new branch
 
-$ git checkout [branch-name]Switches to the specified branch and updates the working directory
+$ git checkout [branch-name]
+  Switches to the specified branch and updates the working directory
 
-$ git merge [branch]Combines the specified branch’s history into the current branch. This is usually done in pull requests, but is an important Git operation.
+$ git merge [branch]
+  Combines the specified branch’s history into the current branch. This is usually done in pull requests, but is an important Git operation.
 
-$ git branch -d [branch-name]Deletes the specified branch
+$ git branch -d [branch-name]
+  Deletes the specified branch
 
 
 
@@ -69,7 +72,7 @@ $ git clone [url]
 
 
 =======================================================
-The .gitgnore file
+The .gitignore file
 =======================================================
 
 Sometimes it may be a good idea to exclude files from being tracked with Git. 
@@ -147,16 +150,12 @@ If you need help, reach out at github.community or contact support.
 GLOSSARY
 =======================================================
 
-git: an open source, distributed version-control system
-GitHub: a platform for hosting and collaborating on Git repositories
-commit: a Git object, a snapshot of your entire repository compressed into a SHA
-branch: a lightweight movable pointer to a commit
-clone: a local version of a repository, including all commits and branches
-remote: a common repository on GitHub that all team member use to exchange their changes
-fork: a copy of a repository on GitHub owned by a different user
+git:          an open source, distributed version-control system
+GitHub:       a platform for hosting and collaborating on Git repositories
+commit:       a Git object, a snapshot of your entire repository compressed into a SHA
+branch:       a lightweight movable pointer to a commit
+clone:        a local version of a repository, including all commits and branches
+remote:       a common repository on GitHub that all team member use to exchange their changes
+fork:         a copy of a repository on GitHub owned by a different user
 pull request: a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
-HEAD: representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using   git checkout
-
-
-
-
+HEAD:         representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using   git checkout

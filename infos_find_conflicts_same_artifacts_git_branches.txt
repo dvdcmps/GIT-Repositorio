@@ -1,0 +1,51 @@
+**********************************************************************************************************
+****************************************** PRE-REQUISITOS ************************************************
+**********************************************************************************************************
+GIT BASH instalado.
+
+**********************************************************************************************************
+******************************************** INSTALACAO **************************************************
+**********************************************************************************************************
+Copiar o texto entre as cerquilhas para o arquivo 'profile' do GIT BASH, caminho 'C:\Program Files\Git\etc'
+
+##########################################################################################
+find_conflicts_same_artifacts_git_branches () 
+{
+	echo ""
+    git fetch && git remote prune origin && git fetch
+    local CHG="${1}";
+    local OBJ=""
+    local VAR=""
+    
+	echo ""
+	echo ""
+    echo "Objetos da change ${CHG}: "
+    
+    for VAR in `git diff --name-only master...origin/"${CHG}"`
+    do 
+       OBJ="${OBJ} ${VAR}"
+       echo "    * ${VAR}"
+    done
+
+
+    echo ""
+    echo ""
+    
+    git for-each-ref --format="%(committerdate:short) %(refname:short) %(authorname)" refs/remotes | grep -v master | while read date file author; do git cherry master $file | while read x h; do if [ "`git log -n 1 --format=%H $h -- ${OBJ}`" = "$h" ]; then echo -e "\e[36m$date" "\e[97m$file" "\e[31m$author"; fi; done; done | sort -u
+}
+
+if [ -z "${1}" ]
+    then
+       echo -e "\nInforme a branch para pesquisa... \n"
+       echo -e "Use: find_conflicts_same_artifacts_git_branches <remote_branch>"
+       echo -e "Ex: find_conflicts_same_artifacts_git_branches softtek_hotfix_CH0280754\n"
+       return 0
+fi
+##########################################################################################
+
+**********************************************************************************************************
+********************************************* EXECUCAO ***************************************************
+**********************************************************************************************************
+Metodo criado de nome 'find_conflicts_same_artifacts_git_branches';
+Segue exemplo de execução do comando no GIT BASH: find_conflicts_same_artifacts_git_branches softtek_hotfix_CH0280754
+
