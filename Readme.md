@@ -1,7 +1,5 @@
-# GitHub
+# Curso de Git e GitHub - Udemy
 
-Arquivo para a aula de Git e Github para iniciantes.
+![./Imagem_Curso.jpg](Curso)
 
-Acrescentado depois do primeiro add
-
-Acrescentadas nova linha depois da anterior... kkkk
+Repositório do curso Git e GitHub
