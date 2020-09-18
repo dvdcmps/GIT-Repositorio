@@ -3,7 +3,7 @@ git config --global user.name "David de Campos"
 git config --global user.email "david.de.campos@gmail.com"
 
 git config --list
-
+    
 
 dvdcmps - david.de.campos@gmail.com - 7David01
 
