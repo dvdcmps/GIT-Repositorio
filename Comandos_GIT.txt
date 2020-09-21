@@ -1,7 +1,7 @@
 git
 git config --global user.name "David de Campos"
 git config --global user.name "David@Note-DELL-David"
-git config --global user.mail "david.de.campos@gmail.com"
+git config --global user.email "david.de.campos@gmail.com"
 
 git config --list
 
